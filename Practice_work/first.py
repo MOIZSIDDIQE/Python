@@ -20,3 +20,10 @@ num1 = int(input("Enter your first number: "))
 num2 = int(input("Enter your second number: "))
 
 print("sum =",num1 + num2)
+
+area  = float(input("Enter square side: " ))
+print("Area =", area **2)
+
+f1 = float(input("Enter first num: "))
+f2 = float(input("Enter second num: "))
+
