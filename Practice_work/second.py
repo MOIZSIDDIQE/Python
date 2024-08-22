@@ -11,3 +11,12 @@ print(Name3.find("B"))
 print(Name3.count("e"))
 print(Name3.replace("Elder","younger"))
 
+age = int(input("Enter age: "))
+if( age >= 18):
+    if(age >=30):
+        print("Can't Apply for Government job")
+    else:
+        print("Eligible for Government job")
+else:
+    print("Not Eligible for Government job")
+
