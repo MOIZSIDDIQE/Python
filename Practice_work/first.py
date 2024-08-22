@@ -34,5 +34,11 @@ num2 = int(input("Enter your second number: "))
 
 print(num1 >= num2 )
 
+input = input("Enter some to count :")
+Name = "My name is moizd"
+counter = len(input)
+n=Name[0:4]
+print(n)
+print(len(Name))
 
 
