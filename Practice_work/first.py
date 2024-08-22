@@ -27,3 +27,12 @@ print("Area =", area **2)
 f1 = float(input("Enter first num: "))
 f2 = float(input("Enter second num: "))
 
+print("average =",(f1 + f2)/2)
+
+num1 = int(input("Enter your first number: "))
+num2 = int(input("Enter your second number: "))
+
+print(num1 >= num2 )
+
+
+
