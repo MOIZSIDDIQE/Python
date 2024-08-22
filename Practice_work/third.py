@@ -22,3 +22,9 @@ list.sort(reverse=True)
 print(list)
 
 
+#                                                     Tuple
+tup = (43,2,5,6,1,13,2,2,2,9)
+print(tup[1:5])
+print(tup.index(6))
+print(tup.count(2))
+
