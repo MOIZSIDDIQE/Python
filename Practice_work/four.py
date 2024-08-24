@@ -22,3 +22,5 @@ print(student["skills"])
 print(student["Subjests"]["class10th"])
 
 print(student.keys())
+
+print(student.values())
