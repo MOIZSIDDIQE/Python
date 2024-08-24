@@ -4,7 +4,7 @@ student={
     "Id":456,
     "age":18,
     "skills":["HTML","CSS","TYPESCRIPT","TAILWINDCSS","NODE.JS","PYTHON"],
-    "Subjests":{
+    "Subjects":{
         "Class9th":{
             "math":89,
             "english":92,
@@ -26,3 +26,5 @@ print(student.keys())
 print(student.values())
 
 print(student.items())
+
+print(student.get("skills"))
