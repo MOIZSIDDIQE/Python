@@ -1,6 +1,13 @@
 count = 1
 
-while count <=1000000:
+while count <=10:
     print("hello")
     print(count)
-    count +=1
+    count +=1    
+
+# practice 1:
+# No 1:
+i =1
+while i<=100:
+    print(i)
+    i +=1 
