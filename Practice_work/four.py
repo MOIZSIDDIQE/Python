@@ -50,3 +50,9 @@ print(num.union(set2)) # It will Conbine both sets.
 print(num.intersection(set2))#It will return common value.
 
 
+# Practice 1:
+p1 ={
+    "table":["a piece of furniture","list of facts and figures"],
+    "cat":"a small animal"
+}
+print(p1)
