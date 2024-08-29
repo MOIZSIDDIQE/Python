@@ -43,9 +43,10 @@ print(num)
 print(num.pop())
 print(num)
 
-num.clear()
-print(num)
 
+set2 = {"python" , "c",4,6,11,"typescript"}
 
+print(num.union(set2)) # It will Conbine both sets.
+print(num.intersection(set2))#It will return common value.
 
 
