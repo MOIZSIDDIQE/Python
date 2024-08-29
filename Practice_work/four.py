@@ -19,7 +19,7 @@ student={
 
 print(student["skills"])
 
-print(student["Subjests"]["class10th"])
+print(student["Subjects"]["class10th"])
 
 print(student.keys())
 
@@ -28,3 +28,6 @@ print(student.values())
 print(student.items())
 
 print(student.get("skills"))
+
+print(student.update({"FName":"Siddiq"} ))
+print(student)
