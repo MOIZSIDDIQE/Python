@@ -74,3 +74,7 @@ p3 = int(input("Enter your Physics marks :"))
 marks.update({"Physics" : p3 })
 
 print(marks)
+
+# Practice 4:
+value = {8,"8.0"}
+print(value)
