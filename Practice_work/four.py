@@ -60,3 +60,17 @@ print(p1)
 # Practice 2:
 p2 = {"python","java","C++","python","javascript","java","python","C++","C"}
 print(len(p2))
+
+# Practice 3:
+
+marks= {}
+p3 = int(input("Enter your English marks :"))
+marks.update({"English" : p3 })
+
+p3 = int(input("Enter your Math marks :"))
+marks.update({"Math" : p3 })
+
+p3 = int(input("Enter your Physics marks :"))
+marks.update({"Physics" : p3 })
+
+print(marks)
