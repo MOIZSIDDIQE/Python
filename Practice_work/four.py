@@ -56,3 +56,7 @@ p1 ={
     "cat":"a small animal"
 }
 print(p1)
+
+# Practice 2:
+p2 = {"python","java","C++","python","javascript","java","python","C++","C"}
+print(len(p2))
