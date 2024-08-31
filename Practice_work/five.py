@@ -42,11 +42,22 @@ while i<len(lists):
     i +=1
 
 # No5:
-tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 64,100)
 
 num = 64
 i =0
 while i<len(tup):
     if(tup[i] == num):
         print(f"Found number on index {i}")
+    i += 1
+
+names = ["hassan","anus","muheeb","zafar"]
+i= 0
+name= "anush"
+while i<len(names):
+    if(names[i] == name):
+        print(f"{name} is present in the class")
+        break                                  #     To stop loop 
+    elif(names[i] != name):
+        print("by")
     i += 1
