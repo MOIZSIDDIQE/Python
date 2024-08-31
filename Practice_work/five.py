@@ -40,3 +40,13 @@ i=0
 while i<len(lists):
     print(lists[i])
     i +=1
+
+# No5:
+tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+num = 64
+i =0
+while i<len(tup):
+    if(tup[i] == num):
+        print(f"Found number on index {i}")
+    i += 1
