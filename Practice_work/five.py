@@ -58,6 +58,9 @@ while i<len(names):
     if(names[i] == name):
         print(f"{name} is present in the class")
         break                                  #     To stop loop 
-    elif(names[i] != name):
-        print("by")
+    elif(names[i] == "hassan"):
+        print("hassan is suspended")
+    else:
+        print("End")
+        continue                               # To skip condition
     i += 1
