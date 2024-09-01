@@ -117,3 +117,8 @@ for i in range2:
 range3= range(1,10,2)                                   # (start , end , count or step)
 for i in range3:
     print(i)
+
+
+# P3 : No1
+for i in range(1,101):
+    print(i)
