@@ -104,3 +104,16 @@ for i in tup:
     if(find == i):
         print(f"{find} is found in the tuple ")
         break                                  #     To stop loop
+
+
+range1 = range(10)                                   # (end)
+for i in range1:
+    print(i)
+
+range2= range(1,10)                                   # (start , end)
+for i in range2:
+    print(i)
+
+range3= range(1,10,2)                                   # (start , end , count or step)
+for i in range3:
+    print(i)
