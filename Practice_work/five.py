@@ -140,8 +140,20 @@ for i in range(5):
 
 
 # P4 : No1
-takeNumber= int(input("Enter number to find sum natural number :"))
+n=10
 sum = 0
+i =1
+while i<=n:
+    sum +=i
+    i+=1
+
+print("Total natural number sum :",sum)
+
+#                                               OR
+
+takeNumber= int(input("Enter number to find sum natural number :"))
+sum =0 
 for i in range(1,takeNumber+1):
     sum += i
-print(sum)
+    i+=1
+print("Total natural number sum :",sum)
