@@ -53,14 +53,21 @@ while i<len(tup):
 
 names = ["hassan","anus","muheeb","zafar"]
 i= 0
-name= "anush"
+name= "anus"
 while i<len(names):
     if(names[i] == name):
         print(f"{name} is present in the class")
         break                                  #     To stop loop 
     elif(names[i] == "hassan"):
         print("hassan is suspended")
-    else:
-        print("End")
-        continue                               # To skip condition
     i += 1
+
+
+
+i =1
+while i <= 10:
+    if(i%2 != 0):
+        i+=1
+        continue                                  # To skip loop
+    print(i)
+    i +=1
