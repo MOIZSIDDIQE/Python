@@ -95,3 +95,12 @@ else:
 
 for i in tup:
     print(i)
+
+find = 49
+
+# P2 : No2
+
+for i in tup:
+    if(find == i):
+        print(f"{find} is found in the tuple ")
+        break                                  #     To stop loop
