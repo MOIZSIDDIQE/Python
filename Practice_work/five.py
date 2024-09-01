@@ -128,13 +128,20 @@ for i in range(100 ,0,-1):
     print(i)
 
 # P3 : No3
-input = int(input("Enter number "))
+Input = int(input("Enter number "))
 
-for i in range(
-1,11):
-    print(input*i)
+for i in range(1,11):
+    print(Input*i)
 
 
 for i in range(5):
     if(i < 3):
         pass
+
+
+# P4 : No1
+takeNumber= int(input("Enter number to find sum natural number :"))
+sum = 0
+for i in range(1,takeNumber+1):
+    sum += i
+print(sum)
