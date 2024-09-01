@@ -82,3 +82,11 @@ name = "Hy everyone"
 
 for i in name:
     print(i)
+
+for c in name:
+    if(c == "e"):
+        print("Character found")
+        break                                  # To stop loop
+    print(c)
+else:
+    print("Character not found")
