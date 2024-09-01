@@ -122,3 +122,6 @@ for i in range3:
 # P3 : No1
 for i in range(1,101):
     print(i)
+
+for i in range(100 ,0,-1):
+    print(i)
